@@ -1,0 +1,5 @@
+To change the accent color, make the "accent_colors.sh" script executable ("chmod +x accent_colors.sh") and then run it in the terminal ("sh accent_colors.sh"). It will change the selected background color in the various theme files for the respective theme.
+
+To install the GTK themes, place the "Numix Solarized" and "Numix Solarized Light" folders in /usr/share/themes/ or ~/.themes/
+
+To install the Elegance Colors presets, move the .ini files to ~/.config/elegance-colors/presets/

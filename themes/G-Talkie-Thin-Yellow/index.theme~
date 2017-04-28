@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Test5
+Comment=Flat and big Window Decorations 
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+ButtonLayout=:minimize,maximize,close

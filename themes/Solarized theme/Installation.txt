@@ -1,0 +1,5 @@
+To install the GTK themes, place the "Numix Solarized" and "Numix Solarized Light" folders in /usr/share/themes/ or ~/.themes/
+
+To install the Elegance Colors presets, move the .ini files to ~/.config/elegance-colors/presets/
+
+In each of the theme folders (Numix Solarized" and "Numix Solarized Light") there is a shell script called "accent_colors.sh". To change the accent color og the gtk theme, make the "accent_colors.sh" script executable ("chmod +x accent_colors.sh"), navigate to the theme directory and then run the script in the terminal ("sh accent_colors.sh"). 

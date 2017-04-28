@@ -1,0 +1,23 @@
+*background:#181818
+!*foreground:
+
+!-- Xft settings -- !
+Xft.dpi:       96
+Xft.antialias: 1
+Xft.rgba:      rgb
+Xft.hinting:   1
+Xft.hintstyle: hintfull
+xft.lcdfilter: infinality
+
+! urxvt  -- Fonts -- !
+URxvt.font:xft:LiberationMono-Regular:pixelsize=15:xft:FontAwesome:pixelsize=15
+URxvt.boldfont:xft:LiberationMono-Bold:pixelsize=15
+
+URxvt*scrollBar: false
+URxvt*internalBorder: 7
+URxvt*externalBorder: 0
+
+
+
+
+
