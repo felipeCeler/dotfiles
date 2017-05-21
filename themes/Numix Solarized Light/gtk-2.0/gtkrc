@@ -508,22 +508,30 @@ style "xfdesktop-windowlist" {
 }
 
 style "xfdesktop-icon-view" {
-	XfdesktopIconView::label-alpha = 0
-	XfdesktopIconView::selected-label-alpha = 60
-	XfdesktopIconVIew::ellipsize-icon-labels = 1
+    XfdesktopIconView::label-alpha = 75
+    XfdesktopIconView::selected-label-alpha = 100
+    XfdesktopIconView::ellipsize-icon-labels = 1
+    XfdesktopIconView::tooltip-size = 128
 
-	base[NORMAL] = @selected_bg_color
-	base[SELECTED] = @selected_bg_color
-	base[ACTIVE] = @selected_bg_color
+    XfdesktopIconView::shadow-x-offset = 1
+    XfdesktopIconView::shadow-y-offset = 1
+    XfdesktopIconView::shadow-color = "#ff0000"
+    XfdesktopIconView::selected-shadow-x-offset = 2
+    XfdesktopIconView::selected-shadow-y-offset = 2
+    XfdesktopIconView::selected-shadow-color = "#00ff00"
+    XfdesktopIconView::shadow-blur-radius = 2
 
-	fg[NORMAL] = @selected_fg_color
-	fg[SELECTED] = @selected_fg_color
-	fg[ACTIVE] = @selected_fg_color
+    XfdesktopIconView::cell-spacing = 2
+    XfdesktopIconView::cell-padding = 6
+    XfdesktopIconView::cell-text-width-proportion = 1.9
 
-	engine "murrine" {
-		textstyle = 5
-		text_shade = 0.05
-	}
+    base[NORMAL] = "#00ff00"
+    base[SELECTED] = "#5050ff"
+    base[ACTIVE] = "#0000ff"
+
+    fg[NORMAL] = "#ff0000"
+    fg[SELECTED] = "#ff0000"
+    fg[ACTIVE] = "#ff0000"
 }
 
 style "xfwm-tabwin" {
