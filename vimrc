@@ -60,5 +60,9 @@ filetype plugin indent on    " required
 " " Put your non-Plugin stuff after this line
 
 let g:airline_powerline_fonts = 1
+let g:Powerline_symbols='unicode'
 let g:airline_theme = 'bubblegum'
 set term=xterm-256color
+
+
+
