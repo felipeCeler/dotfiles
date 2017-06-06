@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="96"
+   height="96"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="application-vnd.ms-powerpoint.svg">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="3.1532543"
+     inkscape:cx="29.09593"
+     inkscape:cy="36.727807"
+     inkscape:current-layer="svg2"
+     units="px" />
+  <defs
+     id="defs4" />
+  <g
+     id="g6946">
+    <path
+       id="rect4090"
+       d="m 6.0000005,6.0427351 0,83.9572639 83.8045775,0 0.195419,-83.9999993 -27.308665,0.042735 z"
+       inkscape:connector-curvature="0"
+       style="fill:#d35400"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       id="shape0"
+       stroke-miterlimit="2.00000000000"
+       width="51.817814"
+       height="54.710381"
+       x="19.147953"
+       y="18.243111"
+       style="fill:#bdc3c7;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2" />
+    <rect
+       id="shape01"
+       stroke-miterlimit="2.01260185242"
+       width="51.817814"
+       height="54.710381"
+       x="24.838776"
+       y="23.408035"
+       style="fill:#ecf0f1;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.01260185" />
+    <rect
+       id="rect12"
+       stroke-miterlimit="2.01260191180"
+       width="8.9857483"
+       height="25.378475"
+       x="33.974461"
+       y="46.491035"
+       style="fill:#f1c40f;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.01260185" />
+    <rect
+       id="shape1"
+       stroke-miterlimit="2.00000000000"
+       width="8.9857483"
+       height="40.363255"
+       x="47.116005"
+       y="31.506134"
+       style="fill:#e74c3c;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2" />
+    <rect
+       id="shape2"
+       stroke-miterlimit="2.00000000000"
+       width="8.9857483"
+       height="17.886086"
+       x="60.295013"
+       y="53.919575"
+       style="fill:#2ecc71;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2" />
+  </g>
+</svg>

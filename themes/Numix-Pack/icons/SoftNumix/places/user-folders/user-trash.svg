@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="user-trash.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="64.935983"
+     inkscape:cy="107.9765"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="698"
+     inkscape:window-x="-4"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="125,235"
+       id="guide2987" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="15,0"
+       id="guide2991" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="240,-5"
+       id="guide2993" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="215,60"
+       id="guide2995" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="210,145"
+       id="guide2997" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="220,150"
+       id="guide3887" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="220,75"
+       id="guide3889" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="130,25"
+       id="guide3891" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="50,120"
+       id="guide4027" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="45,115"
+       id="guide4036" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-796.36218)">
+    <g
+       id="g11690">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2999"
+         d="m 43.5,837.36215 0,-3 169,0 0,3 -25,177.00005 -119.999999,0 z"
+         style="fill:#f0544c;fill-opacity:1;stroke:none" />
+      <path
+         style="opacity:0.65966384;fill:#444444;fill-opacity:1;stroke:none"
+         d="m 43.5,834.36215 169,0 0,2 -169,0 z"
+         id="path3797"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         ry="0"
+         y="1012.3622"
+         x="68"
+         height="2.0000026"
+         width="120"
+         id="rect3799"
+         style="fill:#444444;fill-opacity:1;stroke:none"
+         rx="0" />
+      <g
+         transform="translate(-2,-18.23509)"
+         id="g10783">
+        <rect
+           style="fill:#444444;fill-opacity:1;stroke:none"
+           id="rect3017"
+           width="10"
+           height="10"
+           x="125"
+           y="216"
+           ry="5"
+           rx="5"
+           transform="translate(0,796.36218)" />
+        <rect
+           rx="5"
+           ry="5"
+           y="1012.3622"
+           x="100"
+           height="10"
+           width="10"
+           id="rect3019"
+           style="fill:#444444;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#444444;fill-opacity:1;stroke:none"
+           id="rect3021"
+           width="10"
+           height="10"
+           x="150"
+           y="1012.3622"
+           ry="5"
+           rx="5" />
+      </g>
+      <g
+         transform="matrix(0.12399009,0,0,0.12399009,90.878855,879.57623)"
+         style="fill:#444444;fill-opacity:1"
+         id="g7">
+        <g
+           style="fill:#444444;fill-opacity:1"
+           id="g9">
+          <path
+             style="fill:#444444;fill-opacity:1"
+             id="path11"
+             d="m 85.038007,500.53488 c -6.699,12.031 -12.031,30.133 -12.031,41.539 0,2.648 0,6.016 0.656,10.688 l -83.726,-143.993 c -2.68,-4.672 -4.676,-11.375 -4.676,-17.414 0,-6.047 1.996,-13.398 4.676,-18.078 l 40.195,-70.328 -44.871,-25.43 146.016003,-2.703 70.98399,127.914 -45.527,-26.117 -71.695993,123.922 z M 149.351,94.675876 c 12.715,-22.125 33.496,-34.18 58.926,-34.18 27.48,0 48.918,12.742 64.312,38.828 l 22.777,38.172004 -79.051,136.664 L 88.401007,199.80788 149.351,94.675876 Z m 9.351,521.718004 c -38.17199,0 -69.644993,-31.477 -69.644993,-69.648 0,-10.719 4.703,-28.82 11.402003,-40.195 l 21.41,-38.172 158.75799,0 0,148.016 -121.925,0 z M 285.988,90.628876 c -10.036,-17.391 -23.434,-29.477 -39.512,-36.18 l 164.746,0 c 14.738,0 26.113,6.047 32.84,17.445 l 40.852,69.648004 44.191,-26.141 -71.016,127.281 -145.305,-2.047 44.871,-25.43 L 285.988,90.628876 Z M 539.851,469.72188 c 20.07,0 36.832,-5.359 50.887,-16.055 l -83.07,144.648 c -6.699,11.375 -18.73,18.078 -32.789,18.078 l -78.395,0 0,51.57 -75.004,-125.234 75.004,-125.266 0,52.258 143.367,0 z m 64.258,-120.562 c 6.043,10.719 9.406,22.094 9.406,34.156 0,24.117 -15.422,49.57 -36.832,61.602 -10.062,5.391 -24.145,8.75 -38.172,8.75 l -44.242,0 -79,-136.664 127.918,-73.008 60.922,105.164 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

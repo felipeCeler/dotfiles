@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   version="1.0"
+   height="128"
+   style="enable-background:new"
+   id="svg5799"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="dialog-ok.svg">
+  <metadata
+     id="metadata5806">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5804" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5802"
+     showgrid="false"
+     inkscape:zoom="4.96875"
+     inkscape:cx="28.176101"
+     inkscape:cy="64"
+     inkscape:current-layer="svg5799" />
+  <path
+     style="fill:#f0544c;font-family:Sans;text-align:start;stroke:none;line-height:normal;text-indent:0;color:#000;text-transform:none;fill-opacity:1"
+     id="path3503"
+     d="m 99.3438,23.0625 c -1.32292,0.0022 -2.63642,0.555283 -3.5625,1.5 0,0 -29.0475,29.8014 -41.375,42.4375 -8.83106,-9.05062 -22.1875,-22.75 -22.1875,-22.75 -1.85699,-1.90217 -5.29926,-1.90217 -7.15625,0 l -12.6562,12.9688 c -1.79082,1.84338 -1.79082,5.12537 0,6.96875 l 38.4062,39.3438 c 1.85699,1.90217 5.29926,1.90217 7.15625,0 l 57.625,-59.0312 c 1.80903,-1.84594 1.80903,-5.15406 0,-7 l -12.6562,-12.9375 c -0.93337,-0.952172 -2.26042,-1.50607 -3.59375,-1.5 z " />
+</svg>
