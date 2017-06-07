@@ -1,0 +1,11 @@
+<svg width="24" version="1.0" xmlns="http://www.w3.org/2000/svg" height="24" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="defs4">
+<clipPath id="clipPath2883">
+<path style="opacity:.3;fill:#f00;stroke:none;color:#000;stroke-width:4" id="path2885" d="m -100,-74 0,96 96,0 0,-96 -96,0 z  m 48,16 c 17.664,0 32,14.336 32,32 4e-06,17.664 -14.336,32 -32,32 -17.664,0 -32,-14.336 -32,-32 0,-17.664 14.336,-32 32,-32 z  m 12.125,16.125 -16.25,18.875 -8,-7.25 -7.75,8.375 15.75,15.625 24,-27.25 -7.75,-8.375 z "/>
+</clipPath>
+<clipPath id="clipPath3266">
+<path style="opacity:.3;fill:#f00;stroke:none;color:#000;stroke-width:4" id="path3268" d="M 0,0 0,96 96,96 96,0 0,0 z m 12,6 72,0 c 3.324,0 6,2.676 6,6 l 0,72 c 0,3.324 -2.676,6 -6,6 L 12,90 C 8.676,90 6,87.324 6,84 L 6,12 C 6,8.676 8.676,6 12,6 z"/>
+</clipPath>
+</defs>
+<path style="fill:#1a1a1a;fill-rule:evenodd;stroke:none" id="path3017" d="m -.6187,12.9515 -.1824,-9.1236 -.1824,-9.1236 7.9925,4.4038 7.9925,4.4038 -7.8101,4.7198 z " transform="matrix(0.59644791,0.01112398,-0.01112398,0.59644791,5.0190526,11.103898)"/>
+</svg>

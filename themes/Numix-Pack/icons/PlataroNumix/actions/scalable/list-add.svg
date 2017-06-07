@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="enable-background:new 0 0 256 256"
+   viewBox="0 0 256 256"
+   version="1.0"
+   width="48"
+   height="48"
+   id="svg9114"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="list-add.svg">
+  <metadata
+     id="metadata9120">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview9118"
+     showgrid="false"
+     inkscape:zoom="13.25"
+     inkscape:cx="10.566038"
+     inkscape:cy="24"
+     inkscape:current-layer="svg9114" />
+  <defs
+     id="defs185" />
+  <path
+     style="fill:#f0544c;fill-rule:evenodd;stroke:none;color:#000;stroke-width:5.333;fill-opacity:1"
+     id="rect1332"
+     d="m 97.2807,60.8696 0,36.3849 -36.3981,0 c -40.4853,-0.286939 -36.3981,-7.98127 -36.3981,30.7518 -1.66174,39.6429 -1.09247,30.7518 36.3981,30.7518 h 36.3981 v 36.3786 c -0.28915,40.4749 -7.96977,36.3786 30.7527,36.3786 39.6351,1.65895 30.7526,1.10606 30.7526,-36.3786 v -36.3786 h 36.3647 c 40.4666,0.29053 36.3647,7.96216 36.3647,-30.7518 1.6571,-39.6284 1.11458,-30.7518 -36.3647,-30.7518 h -36.3647 v -36.3849 c 0.28846,-40.4785 7.97341,-36.3849 -30.7526,-36.3849 -39.6378,-1.65982 -30.7527,-1.10185 -30.7527,36.3849 Z " />
+</svg>

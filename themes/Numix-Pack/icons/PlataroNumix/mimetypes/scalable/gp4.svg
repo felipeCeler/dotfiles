@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 96 96"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gp3.svg"
+   width="96"
+   height="96">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview40"
+     showgrid="false"
+     inkscape:zoom="4.478343"
+     inkscape:cx="41.71365"
+     inkscape:cy="55.406905"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata63">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath-823433458-6">
+      <g
+         id="g17-2"
+         transform="translate(0,-1004.3622)">
+        <path
+           id="path19-6"
+           style="fill:#1890d0"
+           transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
+           d="m -24,13 c 0,1.105 -0.672,2 -1.5,2 -0.828,0 -1.5,-0.895 -1.5,-2 0,-1.105 0.672,-2 1.5,-2 0.828,0 1.5,0.895 1.5,2 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </clipPath>
+  </defs>
+  <rect
+     style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4183"
+     width="84"
+     height="84"
+     x="6"
+     y="6" />
+  <g
+     id="g45"
+     transform="matrix(1.000218,0,0,0.99980419,-34.528908,68.362457)">
+    <g
+       clip-path="url(#clipPath-823433458-6)"
+       id="g47">
+      <!-- color: #b42026 -->
+      <g
+         id="g49" />
+    </g>
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path4188"
+     d="m 48.000122,13.894737 c -5.68421,0 -19.894737,0 -25.578947,5.684208 -11.368421,11.368421 -5.684211,25.578948 0,36.94737 5.68421,11.368421 17.052632,25.578948 25.578947,25.578948 8.525998,0 19.894951,-14.210527 25.578948,-25.578948 5.683998,-11.368421 11.367995,-25.578948 0,-36.947369 -5.683997,-5.68421 -19.89495,-5.68421 -25.578948,-5.68421 z"
+     style="fill:#3f3f3f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:45.42235184px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d84d3a;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="4.5704436"
+     y="74.034523"
+     id="text4157"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.62127343,-0.61192203,0.81709756,0.80479863,0,0)"><tspan
+       sodipodi:role="line"
+       x="4.5704427"
+       y="74.034523"
+       id="tspan4159"><tspan
+         x="4.5704436"
+         y="74.034523"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:45.42235184px;font-family:Play;-inkscape-font-specification:'Play Bold';text-align:center;text-anchor:middle;fill:#d84d3a;fill-opacity:0.94117647"
+         id="tspan4161">GP</tspan></tspan></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4149"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion4151"><rect
+         id="rect4153"
+         width="0"
+         height="8.9318752"
+         x="48.008827"
+         y="47.991173" /></flowRegion><flowPara
+       id="flowPara4155"></flowPara></flowRoot></svg>

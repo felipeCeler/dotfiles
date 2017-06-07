@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   version="1.1"
+   height="48"
+   id="svg5823"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="folder-psychology.svg">
+  <metadata
+     id="metadata5838">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5836" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5834"
+     showgrid="false"
+     inkscape:zoom="14.9375"
+     inkscape:cx="25.606694"
+     inkscape:cy="25.07113"
+     inkscape:current-layer="svg5823" />
+  <path
+     style="opacity:.65;fill:#fff;stroke:none"
+     id="rect4154"
+     d="m 3,1.959 0,9.342 42,0 0,-6.9866 -22,0 0,-2.3555 z" />
+  <rect
+     style="stroke:none;fill:#444444;fill-opacity:1"
+     width="18"
+     x="4"
+     y="2.9586298"
+     height="11.773318"
+     id="folderTab" />
+  <rect
+     style="stroke:none;fill:#444444;fill-opacity:1"
+     width="40"
+     x="4"
+     y="5.313652"
+     height="35.319954"
+     id="folderBackground" />
+  <rect
+     width="35.999992"
+     x="6"
+     y="7.6680799"
+     height="32.965004"
+     style="fill:#ffffff;stroke:none"
+     id="folderPaper" />
+  <rect
+     width="43.999996"
+     x="2"
+     y="10.022959"
+     height="32.965298"
+     style="fill:#f0544c;stroke:none;fill-opacity:1"
+     id="folderFront" />
+  <g
+     style="font-family:'Bitstream Vera Sans';fill:#fff;stroke:none;word-spacing:0;line-height:125%;letter-spacing:0;font-size:31.634655px"
+     id="text4309">
+    <path
+       style="font-family:'DejaVu Serif';text-align:start;font-style:italic"
+       id="path4314"
+       d="m 22.5574,38.0552 -2.8576,0 1.2666,-6.4721 q -1.43653,0 -2.67226,-0.556078 -0.926797,-0.417059 -1.88449,-1.57555 -0.895904,-1.08126 -1.18939,-2.65682 -0.169913,-0.926797 0.308932,-3.44459 0.664204,-3.4137 0.417058,-5.08193 -0.247146,-1.73002 -0.942243,-2.30155 l .1854,-.9114 h 1.54466 q 1.56011,1.591 1.97717,2.99664 0.602418,2.00806 -0.04634,5.29819 -0.571524,2.93486 -0.03089,4.58764 0.648758,2.0544 2.64137,2.00806 l 2.904,-14.8905 h 2.85762 l -2.904,14.8905 q 1.94627,0.04634 3.4137,-2.00806 1.15849,-1.65279 1.73002,-4.58764 0.695097,-3.52183 2.02351,-5.29819 1.1585,-1.54466 3.13566,-2.99664 h 1.56011 l -.1854,.9114 q -0.880456,0.556078 -1.83815,2.30155 -0.880457,1.62189 -1.56011,5.08193 -0.478845,2.5178 -1.01948,3.44459 -0.91135,1.57555 -2.20886,2.65682 -1.42109,1.15849 -2.50235,1.57555 -1.45198,0.556078 -2.85762,0.556078 l -1.2666,6.4721 z " />
+  </g>
+</svg>

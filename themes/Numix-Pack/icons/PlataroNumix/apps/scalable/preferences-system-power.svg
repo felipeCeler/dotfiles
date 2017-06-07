@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="96"
+   version="1.1"
+   height="96"
+   id="svg5261"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="preferences-system-power.svg">
+  <metadata
+     id="metadata5273">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5271" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5269"
+     showgrid="false"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="38.836583"
+     inkscape:cy="36.534218"
+     inkscape:current-layer="svg5261" />
+  <g
+     id="g7001">
+    <rect
+       ry="0"
+       rx="0"
+       y="6"
+       x="6"
+       height="84"
+       width="84"
+       id="rect6968"
+       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#4d4d4d;fill-rule:evenodd;stroke:none"
+       id="path6972"
+       d="m 52.136817,13.770151 -20.462266,40.924309 15.346532,0 0,30.693288 20.462266,-40.924309 -15.346532,0 0,-30.693288 z"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 50.557867,12.191201 -20.462266,40.924309 15.346532,0 0,30.693288 20.462266,-40.924309 -15.346532,0 0,-30.693288 z"
+       id="path4185"
+       style="fill:#ff5555;fill-rule:evenodd;stroke:none" />
+  </g>
+</svg>

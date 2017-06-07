@@ -1,0 +1,7 @@
+Installation
+============
+
+******************************************
+** Cinnamon/GNOME/LXDE/MATE/Unity/Xfce ***
+******************************************
+Put this (extracted) folder in '~/.local/share/icons/' (create the last folder "icons" if it doesn't exist; here '~' is your home). In some (outdated) distros the icons directory may be '~/.icons/' instead of '~/.local/share/icons/'.

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="32px"
+   id="svg3853"
+   version="1.1"
+   inkscape:version="0.92.1 r"
+   sodipodi:docname="steam.svg">
+  <defs
+     id="defs3855" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="12.882602"
+     inkscape:cx="13.831595"
+     inkscape:cy="16.371871"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="698"
+     inkscape:window-x="-4"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3861"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="19,29"
+       id="guide3863"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="16,3"
+       id="guide3865"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="3,18"
+       id="guide3867"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="29,15"
+       id="guide3869"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="16,20"
+       id="guide4466"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3858">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       d="m 22.940117,6.0753835 c -3.26308,0 -5.895009,2.6422515 -5.924616,5.8985165 l -3.706147,5.298225 c -0.15081,-0.01512 -0.314941,-0.02606 -0.469794,-0.02606 -0.827329,0 -1.606535,0.22951 -2.270667,0.626391 L 3,14.818801 l 0,5.611421 5.5070219,2.192369 c 0.433897,1.994287 2.2113361,3.49735 4.3325381,3.49735 2.297603,0 4.191251,-1.751741 4.410838,-3.993244 l 5.689719,-4.17594 c 3.280795,0 5.950716,-2.644699 5.950716,-5.924616 0,-3.281747 -2.669638,-5.9507158 -5.950716,-5.9507158 z m 0,1.9574725 c 2.198224,0 3.993244,1.794994 3.993244,3.993243 -9e-6,2.198349 -1.79502,3.967144 -3.993244,3.967144 -2.19824,0 -3.967143,-1.768795 -3.967143,-3.967144 0,-2.198249 1.768903,-3.993243 3.967143,-3.993243 z m 0.02606,0.782988 c -1.756776,0 -3.184155,1.427303 -3.184155,3.184156 0,1.756784 1.427379,3.184154 3.184155,3.184154 1.756843,0 3.184155,-1.42737 3.184155,-3.184154 0,-1.756853 -1.427312,-3.184156 -3.184155,-3.184156 z M 12.83952,18.420508 c 1.808416,0 3.262453,1.45398 3.262453,3.262455 -1.6e-5,1.808374 -1.454037,3.262453 -3.262453,3.262453 -1.257911,0 -2.326124,-0.711831 -2.8709596,-1.748675 0.5364836,0.216497 1.0562456,0.434498 1.5920776,0.65249 1.329662,0.534337 2.858465,-0.105542 3.392952,-1.435479 0.534462,-1.329636 -0.131668,-2.832599 -1.46158,-3.366853 l -1.35718,-0.548092 c 0.226411,-0.04886 0.462986,-0.07825 0.70469,-0.07825 z"
+       id="path3047-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsccccsccssssssssssssssscccccs" />
+  </g>
+</svg>

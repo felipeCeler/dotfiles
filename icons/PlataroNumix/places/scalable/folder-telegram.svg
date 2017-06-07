@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   version="1.1"
+   height="48"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="folder-telegram.svg">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="14.9375"
+     inkscape:cx="23.196652"
+     inkscape:cy="25.07113"
+     inkscape:current-layer="svg2" />
+  <path
+     style="opacity:0.65;fill:#ffffff;stroke:none"
+     id="rect4154"
+     d="m 3,1.959 0,9.342 42,0 0,-6.98655 -22,0 0,-2.35547 z"
+     inkscape:connector-curvature="0" />
+  <rect
+     style="stroke:none;fill:#444444;fill-opacity:1"
+     width="18"
+     x="4"
+     y="2.9586298"
+     height="11.773318"
+     id="folderTab" />
+  <rect
+     style="stroke:none;fill:#444444;fill-opacity:1"
+     width="40"
+     x="4"
+     y="5.313652"
+     height="35.319954"
+     id="folderBackground" />
+  <rect
+     width="35.999992"
+     x="6"
+     y="7.6680799"
+     height="32.965004"
+     style="fill:#ffffff;stroke:none"
+     id="folderPaper" />
+  <rect
+     width="43.999996"
+     x="2"
+     y="10.022959"
+     height="32.965298"
+     style="fill:#f0544c;stroke:none;fill-opacity:1"
+     id="folderFront" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 23.9991,14 A 12.5006,12.4997 0 0 0 11.5,26.5 12.5006,12.4997 0 0 0 23.9991,39 12.5006,12.4997 0 0 0 36.5,26.5 12.5006,12.4997 0 0 0 23.9991,14 Z m 5.1646,6.4797 c 0.210982,0.02174 0.411185,0.09124 0.550352,0.213137 0.278331,0.243901 0.284278,0.700701 0.169474,1.029 l -3.5607,10.1834 c -0.101357,0.289878 -0.220583,0.549034 -0.683137,0.614954 -0.462554,0.06592 -0.979956,-0.240428 -1.21078,-0.773933 0,0 -1.51531,-3.57502 -1.8083,-3.84696 -0.292987,-0.271996 -4.05165,-1.95143 -4.05165,-1.95143 -0.485899,-0.316288 -0.584525,-0.909784 -0.490951,-1.22292 0.09357,-0.313137 0.439542,-0.597042 0.768747,-0.714536 l 9.6984,-3.4609 c 0.184769,-0.06592 0.407509,-0.09162 0.618493,-0.06989 z"
+     id="path4143"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.68199998;stroke-linecap:square" />
+</svg>
