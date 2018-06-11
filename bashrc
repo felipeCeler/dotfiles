@@ -22,10 +22,6 @@ fi
 
 alias rm='echo "This is not the command you are looking for."; false'
 
-# Base16 Shell
-BASE16_SHELL="$HOME/dotfiles/base16-shell/base16-default.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-
 # By me - Unicode Icons
 export LANG=en_US.UTF-8
 # By me - TERM

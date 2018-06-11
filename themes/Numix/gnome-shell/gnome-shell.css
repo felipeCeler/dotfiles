@@ -1106,7 +1106,7 @@ StScrollBar {
   -shell-grid-horizontal-item-size: 136px;
   -shell-grid-vertical-item-size: 136px; }
   .icon-grid .overview-icon {
-    icon-size: 32px; }
+    icon-size: 96px; }
 
 .app-view-controls {
   padding-bottom: 32px; }
