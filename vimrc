@@ -63,6 +63,7 @@ let g:airline_powerline_fonts = 1
 let g:Powerline_symbols='unicode'
 let g:airline_theme = 'bubblegum'
 set term=xterm-256color
+set shell=/bin/bash
 
 
 
