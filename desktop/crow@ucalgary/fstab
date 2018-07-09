@@ -1,0 +1,40 @@
+# /etc/fstab: static file system information.
+#
+# The root filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+#
+# See the manpage fstab(5) for more information.
+#
+# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+
+# Windows
+# umask=0002 fix windows partition colors
+# @see askubuntu.com/questions/594831/xfce4-terminal-color-settings-for-ls-in-ntfs-partition-mounted-by-fstaba - the question
+# @see http://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-the-terminal - what the colors mean
+# @see http://askubuntu.com/questions/429848/dmask-and-fmask-mount-options - what the mask bit maps mean
+/dev/sda1      /media/c     ntfs-3g   umask=0002,uid=1000,gid=100,defaults 0 0
+/dev/sda2      /media/d     ntfs-3g   umask=0002,uid=1000,gid=100,defaults 0 0
+
+# Funtoo
+/dev/sda7		/boot		  ext2	noauto,noatime	  1 2
+/dev/sda6		none		  swap	sw		          0 0
+/dev/sda5		/		      ext4	noatime	       	  0 1
+# jvm-ram
+tmpfs /media/jvm-ram  tmpfs  size=512m,defaults,mode=1777 0 0
+/home/felipe/Applications/squashfs/oracle-jdk-bin-1.8.sqsh /media/jvm-ram/    squashfs ro,defaults,loop 0 0
+
+# eclipse-ram-mars
+tmpfs /media/eclipse-ram/mars  tmpfs  size=4G,defaults,mode=1777 0 0
+/home/felipe/Applications/squashfs/eclipse-mars.sqsh      /media/eclipse-ram/mars  squashfs ro,defaults,loop 0 0
+
+# eclipse-ram-neon
+tmpfs /media/eclipse-ram/neon  tmpfs  size=4G,defaults,mode=1777 0 0
+/home/felipe/Applications/squashfs/eclipse-neon-3.0.sqsh      /media/eclipse-ram/neon  squashfs ro,defaults,loop 0 0
+
+
+#tmpfs /media/jvm-ram     tmpfs size=500m              0 0
+#tmpfs /media/eclipse-ram tmpfs size=4G                0 0
+
+#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0

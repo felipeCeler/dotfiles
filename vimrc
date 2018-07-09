@@ -59,6 +59,9 @@ filetype plugin indent on    " required
 " " see :h vundle for more details or wiki for FAQ
 " " Put your non-Plugin stuff after this line
 
+" " see https://stackoverflow.com/questions/9850360/what-is-netrwhist
+let g:netrw_dirhistmax=0
+
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols='unicode'
 let g:airline_theme = 'bubblegum'
