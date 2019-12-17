@@ -1,3 +1,4 @@
 .directory
+**/vim/bundle
 vim/bundle
 .uuid
