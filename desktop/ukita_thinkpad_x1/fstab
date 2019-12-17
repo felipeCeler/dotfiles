@@ -1,0 +1,31 @@
+
+# filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+#
+# See the manpage fstab(5) for more information.
+#
+# <fs> <mountpoint> <type> <opts> <dump/pass>
+
+# Windows
+# umask=0002 fix windows partition colors
+# @see askubuntu.com/questions/594831/xfce4-terminal-color-settings-for-ls-in-ntfs-partition-mounted-by-fstaba - the question
+# @see http://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-the-terminal - what the colors mean
+# @see http://askubuntu.com/questions/429848/dmask-and-fmask-mount-options - what the mask bit maps mean
+#/dev/sda1 /media/c ntfs-3g umask=0002,uid=1000,gid=100,defaults 0 0
+#/dev/sda2 /media/d ntfs-3g umask=0002,uid=1000,gid=100,defaults 0 0
+
+# Gentoo
+
+UUID=b4d3e4a8-74e2-471e-a81c-94568987f272 /boot ext2 noauto,noatime 1 2
+UUID=3b1194aa-099a-441d-9278-a7552fd38a44 none swap sw 0 0
+UUID=af254880-de0f-4cb2-b69f-5d0584e42a74 / ext4 defaults,noatime,discard,errors=remount-ro 0 1
+
+#/dev/cdrom /mnt/cdrom auto noauto,ro 0
+
+#/dev/nvme1n1p3: UUID="1a96cf29-15b2-4104-9694-f6885cc2d885" TYPE="ext2" PARTLABEL="boot" PARTUUID="7e360034-d760-4fcb-9de0-afe6ee035c77"
+#/dev/nvme1n1p4: LABEL="swap" UUID="3b1194aa-099a-441d-9278-a7552fd38a44" TYPE="swap" PARTUUID="e725d2a3-dfd6-497d-9e6e-d04e030f38d5"
+#/dev/nvme1n1p5: UUID="af254880-de0f-4cb2-b69f-5d0584e42a74" TYPE="ext4" PARTLABEL="gentoo" PARTUUID="73c6c106-c746-45c2-a167-f39f718b160a"
+
+
