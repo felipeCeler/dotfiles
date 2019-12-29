@@ -20,9 +20,9 @@
 
 # device-spec                              mount-point           fs-type   options                                        dump pass
 
-UUID=8766be39-7a37-42e8-8db3-2726be8df5b0 /boot                  ext2      noauto,noatime                                 1 2
-UUID=dd9e74af-815f-4347-93c2-9eefdebabbe9 none                   swap sw                                                  0 0
-UUID=285f8690-98e2-442e-88e1-b64671eea379 /                      ext4      defaults,noatime,discard,errors=remount-ro     0 1
+UUID=a223744a-e7b2-4552-8d3c-dee42ceef14d /boot                  ext2      noauto,noatime                                 1 2
+UUID=32fb0734-4003-4edd-bd77-de7921d7e957 none                   swap sw                                                  0 0
+UUID=588a50d4-ac06-458e-be06-3b36716874ba /                      ext4      defaults,noatime,discard,errors=remount-ro     0 1
 
 #/dev/cdrom /mnt/cdrom auto noauto,ro 0
 
