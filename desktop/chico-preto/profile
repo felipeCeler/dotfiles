@@ -1,0 +1,3 @@
+# Chico Preto's enviroment variable
+XDG_DATA_DIRS="/media/frontier/application/binary/share:$XDG_DATA_DIRS"
+PATH="/media/frontier/applications/linux/binary/bin:$PATH"

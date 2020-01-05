@@ -1,4 +1,4 @@
-*background:#181818
+background:#181818
 !*foreground:
 
 !-- Xft settings -- !
@@ -16,6 +16,10 @@ URxvt.boldfont:xft:LiberationMono-Bold:pixelsize=15
 URxvt*scrollBar: false
 URxvt*internalBorder: 7
 URxvt*externalBorder: 0
+
+
+
+
 
 
 

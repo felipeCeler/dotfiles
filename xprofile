@@ -1,0 +1,8 @@
+# ~/.xprofile @ celer
+# read by xinit
+
+# xdg environment variables
+export XDG_DATA_DIRS="/media/frontier/application/binary/share:$XDG_DATA_DIRS"
+# Path environmet variables
+PATH="/media/frontier/application/linux/binary/bin:$PATH"
+

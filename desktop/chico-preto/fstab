@@ -29,9 +29,3 @@ UUID=32fb0734-4003-4edd-bd77-de7921d7e957 none                   swap      sw   
 
 UUID=A4B46A76B46A4B3E                    /media/frontier     ntfs-3g   defaults,uid=1000,gid=100,umask=0002           0 0
 
-#/dev/nvme1n1p3: UUID="1a96cf29-15b2-4104-9694-f6885cc2d885" TYPE="ext2" PARTLABEL="boot" PARTUUID="7e360034-d760-4fcb-9de0-afe6ee035c77"
-#/dev/nvme1n1p4: LABEL="swap" UUID="3b1194aa-099a-441d-9278-a7552fd38a44" TYPE="swap" PARTUUID="e725d2a3-dfd6-497d-9e6e-d04e030f38d5"
-#/dev/nvme1n1p5: UUID="af254880-de0f-4cb2-b69f-5d0584e42a74" TYPE="ext4" PARTLABEL="funtoo" PARTUUID="73c6c106-c746-45c2-a167-f39f718b160a"
-
-#/dev/nvme1n1p2: UUID="3EC04C56C04C1695" TYPE="ntfs" PARTLABEL="Frontier" PARTUUID="dfb53755-4e81-4d45-985c-507017550bb9"
-
