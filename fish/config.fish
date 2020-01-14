@@ -10,6 +10,8 @@ set -g theme_nerd_fonts yes
 # portage
 abbr ew 'emerge -auDN @world --exclude="debian-sources"'
 abbr ed 'emerge --depclean'
+abbr ec 'emerge -C'
+abbr es 'ego sync'
 # git
 abbr gm 'git push origin master'
 abbr gp 'git pull origin master'

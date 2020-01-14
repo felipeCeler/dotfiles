@@ -1,8 +1,11 @@
+#!/bin/sh
+
 # ~/.xprofile @ celer
 # read by xinit
 
 # xdg environment variables
-export XDG_DATA_DIRS="/media/frontier/application/binary/share:$XDG_DATA_DIRS"
+export XDG_DATA_DIRS="/media/felipe/applications/linux/share:$XDG_DATA_DIRS"
 # Path environmet variables
-PATH="/media/frontier/application/linux/binary/bin:$PATH"
-
+export PATH="/media/frontier/applications/linux/binary/bin:$PATH"
+# @see https://forums.gentoo.org/viewtopic-p-7080966.html
+export VALAC=/usr/bin/valac-0.46

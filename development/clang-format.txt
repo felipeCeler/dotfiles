@@ -1,0 +1,13 @@
+﻿---
+BasedOnStyle: Google
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'true'
+AlwaysBreakTemplateDeclarations: 'Yes'
+BinPackArguments: 'false'
+BinPackParameters: 'false'
+NamespaceIndentation: All
+SpaceInEmptyParentheses: 'true'
+SpacesInAngles: 'true'
+SpacesInParentheses: 'true'
+
+...
