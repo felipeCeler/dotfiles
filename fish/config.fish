@@ -13,10 +13,10 @@ abbr ed 'emerge --depclean'
 abbr ec 'emerge -C'
 abbr es 'ego sync'
 # git
-abbr gm 'git push origin master'
-abbr gp 'git pull origin master'
-abbr gs 'git status'
-abbr gc 'git commit'
-abbr ga 'git add'
-# Alias
+abbr ggm 'git push origin master'
+abbr ggp 'git pull origin master'
+abbr ggs 'git status'
+abbr ggc 'git commit'
+abbr gga 'git add'
+#Alias
 alias rm='echo "This is not the command you are looking for."; false'
