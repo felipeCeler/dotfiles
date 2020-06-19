@@ -1,3 +1,6 @@
+# user Paths
+set fish_user_paths $fish_user_paths  ~/.local/bin
+
 # prompt decoration
 set -g theme_display_user yes
 set -g theme_title_use_abbreviated_path no
