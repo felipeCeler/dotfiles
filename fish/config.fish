@@ -1,5 +1,6 @@
 # user Paths
 set fish_user_paths $fish_user_paths  ~/.local/bin
+set -gx PATH /media/frontier/applications/linux/bazel/bazel-sh//bin /media/frontier/applications/linux/protobuf-git/bin $PATH
 
 # prompt decoration
 set -g theme_display_user yes
