@@ -1,0 +1,30 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "cmake.configureOnOpen": true,
+    "python.jediEnabled": false,
+    "update.mode": "none",
+    "python.languageServer": "Microsoft",
+    "cSpell.userWords": [
+        "celer"
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+
+        "[Default Dark+]": {
+            "editor.background": "#111111",
+            "editorGutter.background": "#111111",
+            "sideBar.background": "#111111"
+        }
+    },
+    "git.autorefresh": false,
+    "window.zoomLevel": -3,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableBold": true,
+    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.rightClickCopyPaste": true,
+}

@@ -1,6 +1,11 @@
 # user Paths
+set VULKAN_SDK /media/frontier/development/vulkan-sdk/vulkansdk-linux-x86_64-1.2.189.0/1.2.189.0/x86_64
+set VK_LAYER_PATH $VULKAN_SDK/etc/vulkan/explicit_layer.d
+
 set fish_user_paths $fish_user_paths  ~/.local/bin
-set -gx PATH /media/frontier/applications/linux/bazel/bazel-sh//bin /media/frontier/applications/linux/protobuf-git/bin $PATH
+set -gx PATH /media/frontier/applications/linux/bazel/bazel-sh/bin /media/frontier/applications/linux/protobuf-git/bin $VULKAN_SDK/bin $PATH
+set -Ux LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
+
 
 # prompt decoration
 set -g theme_display_user yes
