@@ -17,11 +17,9 @@ set -g fish_prompt_pwd_dir_length 0
 set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
 
-
-# from bobthefish theme
+# From bobthefish theme
 set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
-
 
 ### ABBRIVIATIONS ###
 # portage
@@ -35,7 +33,7 @@ abbr ggp 'git pull origin master'
 abbr ggs 'git status'
 abbr ggc 'git commit'
 abbr gga 'git add'
-abbr ggl 'git log'
+abbr ggl 'git log --pretty=format:"\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\"" --graph --date=relative --decorate --all'
 
 ### ALIASES ###
 
@@ -53,33 +51,52 @@ alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
+# to exa @see https://www.youtube.com/watch?v=KKxhf50FIPI
+if type -q exa
+ alias ll "exa -l -g --icons"
+ alias lla "ll -a"
+end
 
-# Then override everything you want!
-# Note that these must be defined with `set -x`
-set -g color_initial_segment_exit     black red --bold
-set -g color_initial_segment_su       black yellow --bold
-set -g color_initial_segment_jobs     black cyan 
 
-set -x color_path                     black white
-set -x color_path_basename            black white --bold
-set -x color_path_nowrite             magenta black
-set -x color_path_nowrite_basename    magenta black --bold
+# My personal Fish Colors
+function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 
-set -x color_repo                     green black
-set -x color_repo_work_tree           black black --bold
-set -x color_repo_dirty               brred black
-set -x color_repo_staged              yellow black
+  # Optionally include a base color scheme
+  __bobthefish_colors default
 
-set -x color_vi_mode_default          brblue black --bold
-set -x color_vi_mode_insert           brgreen black --bold
-set -x color_vi_mode_visual           bryellow black --bold
+  # Then override everything you want!
+  # Note that these must be defined with `set -x`
+  set -x color_initial_segment_exit     black red --bold
+  set -x color_initial_segment_su       black yellow --bold
+  set -x color_initial_segment_jobs     black cyan 
 
-set -x color_vagrant                  brcyan black
-set -x color_k8s                      magenta white --bold
-set -x color_username                 444444 BCBCBC --bold
-set -x color_hostname                 white black
-set -x color_rvm                      brmagenta black --bold
-set -x color_virtualfish              brblue black --bold
-set -x color_virtualgo                brblue black --bold
-set -x color_desk                     brblue black --bold
+  set -x color_path                     black white
+  set -x color_path_basename            black white --bold
+  set -x color_path_nowrite             magenta black
+  set -x color_path_nowrite_basename    magenta black --bold
+
+  set -x color_repo                     green black
+  set -x color_repo_work_tree           black black --bold
+  set -x color_repo_dirty               brred black
+  set -x color_repo_staged              yellow black
+
+  set -x color_vi_mode_default          brblue black --bold
+  set -x color_vi_mode_insert           brgreen black --bold
+  set -x color_vi_mode_visual           bryellow black --bold
+
+  set -x color_vagrant                  brcyan black
+  set -x color_k8s                      magenta white --bold
+  set -x color_username                 444444 BCBCBC --bold
+  set -x color_hostname                 white black
+  set -x color_rvm                      brmagenta black --bold
+  set -x color_virtualfish              brblue black --bold
+  set -x color_virtualgo                brblue black --bold
+  set -x color_desk                     brblue black --bold
+  
+  # GLYPH
+  set -x nonzero_exit_glyph      '✘ '
+  set -x superuser_glyph         '⚡ '
+  set -x bg_job_glyph            '⚙ '
+
+end
 
