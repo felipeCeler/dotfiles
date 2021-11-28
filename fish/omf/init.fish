@@ -19,8 +19,8 @@ set TERM "xterm-256color"                         # Sets the terminal type
 
 
 # from bobthefish theme
-#set -g theme_powerline_fonts no
-#set -g theme_nerd_fonts yes
+set -g theme_powerline_fonts no
+set -g theme_nerd_fonts yes
 
 
 ### ABBRIVIATIONS ###
@@ -35,6 +35,7 @@ abbr ggp 'git pull origin master'
 abbr ggs 'git status'
 abbr ggc 'git commit'
 abbr gga 'git add'
+abbr ggl 'git log'
 
 ### ALIASES ###
 
@@ -55,9 +56,9 @@ alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
 # Then override everything you want!
 # Note that these must be defined with `set -x`
-set -x color_initial_segment_exit     black red --bold
-set -x color_initial_segment_su       black yellow --bold
-set -x color_initial_segment_jobs     black cyan 
+set -g color_initial_segment_exit     black red --bold
+set -g color_initial_segment_su       black yellow --bold
+set -g color_initial_segment_jobs     black cyan 
 
 set -x color_path                     black white
 set -x color_path_basename            black white --bold
