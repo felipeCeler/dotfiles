@@ -91,10 +91,10 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
   set -x color_path_nowrite             magenta black
   set -x color_path_nowrite_basename    magenta black --bold
 
-  #set -x color_repo                     green black
-  #set -x color_repo_work_tree           black black --bold
- # set -x color_repo_dirty               brred black
-#  set -x color_repo_staged              yellow black
+ #set -x color_repo                     green black
+ #set -x color_repo_work_tree           black black --bold
+ #set -x color_repo_dirty               brred black
+ #set -x color_repo_staged              yellow black
 
   set -x color_vi_mode_default          brblue black --bold
   set -x color_vi_mode_insert           brgreen black --bold
@@ -150,8 +150,8 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
     set git_untracked_glyph  \uf111 '' # nf-fa-circle
     #set git_untracked_glyph  \uF141 '' # nf-fa-ellipsis_h
     
-    set -x git_ahead_glyph      \u2191 # '↑'
-    set -x git_behind_glyph     \u2193 # '↓'
+    set -x git_ahead_glyph      \uf176 # '↑'
+    set -x git_behind_glyph     \uf175 # '↓'
     set -x git_plus_glyph       '+'
     set -x git_minus_glyph      '-'
     set -x git_plus_minus_glyph '±'
@@ -164,5 +164,28 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
     #set git_plus_minus_glyph \uF0DC # fa-sort
   end
 
+end
+
+# TODO create my own theme
+function __bobthefish_pretty_parent -S -a child_dir -d 'Print a parent directory, shortened to fit the prompt'
+    set -q fish_prompt_pwd_dir_length
+    or set -l fish_prompt_pwd_dir_length 1
+
+    # Replace $HOME with ~
+    set -l real_home ~
+    set -l parent_dir (string replace -r '^'(__bobthefish_escape_regex "$real_home")'($|/)' '~$1' (__bobthefish_dirname $child_dir))
+
+    # Must check whether `$parent_dir = /` if using native dirname
+    if [ -z "$parent_dir" ]
+        echo -n /
+        return
+    end
+
+    if [ $fish_prompt_pwd_dir_length -eq 0 ]
+        echo -n \uf07c "$parent_dir/"
+        return
+    end
+
+    string replace -ar '(\.?[^/]{'"$fish_prompt_pwd_dir_length"'})[^/]*/' '$1/' "$parent_dir/"
 end
 
