@@ -1,15 +1,19 @@
 # $HOME/.i3/conf
-# @felipe.ce
+# @felipe.celer
+
+default_border pixel 1
+default_floating_border pixel 1
 
 set $Alt Mod1
 set $Win Mod4
-set $mod Mod4
+set $mod Mod1
 
 # Border style
 # Make any new floating windows with border, thus, we can
 # drag it.
 new_window normal
 new_float  normal
+
 
 # font
 font xft:Source Sans Pro, FontAwesome 10
@@ -41,7 +45,7 @@ bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout default
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle; border normal
+bindsym $mod+Shift+space floating toggle; border pixel 1
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 # focus the parent container
@@ -50,10 +54,10 @@ bindsym $mod+a focus parent
 bindsym $mod+b focus child
 
 # Monitor output Interfaces
-set $primary DP-3
+set $primary DP-1
 set $secondary DP-2
 # Cintiq 24HD
-set $terciary DVI-I-1
+#set $terciary DVI-I-1
 # workspace labels
 # using https://fortawesome.github.io/Font-Awesome/cheatsheet/
 set $workspace0 
@@ -160,20 +164,20 @@ client.focused_inactive $gray1 $gray2 $white1 $gray3
 client.unfocused $gray1 $gray2 $white1 $gray3
 
 # Start i3bar to display system information
-bar {
-	status_command i3status # python ~/.i3pystatus.py
-	position top
-	mode dock
-	tray_output $primary
-	colors
-	{
-		# Theme 3 - grayscale
-		statusline $white0
-		background $gray2
-		focused_workspace $blue $gray3 $white1
-		inactive_workspace $gray1 $gray1 $white0
-	}
-}
+#bar {
+#	status_command i3status # python ~/.i3pystatus.py
+#	position top
+#	mode dock
+#	tray_output $primary
+#	colors
+#	{
+#		# Theme 3 - grayscale
+#		statusline $white0
+#		background $gray2
+#		focused_workspace $blue $gray3 $white1
+#		inactive_workspace $gray1 $gray1 $white0
+#	}
+#}
 
 # Custom hotkeys: use xev to learn the hotkey names
 bindsym $Win+p exec xfce4-screenshooter
@@ -200,16 +204,18 @@ workspace_auto_back_and_forth yes
 workspace_layout tabbed
 
 # for_window
-for_window [window_role="pop-up"] floating enable; move absolute center;border normal
+for_window [window_role="pop-up"] floating enable; move absolute center;border pixel 1
 for_window [class="scratch|sscratch|scratchpad"] move scratchpad
-for_window [class="^Chrome$"] border normal
+for_window [class="^Chrome$"] border pixel 1
 for_window [class="gimp|Java|Lxappearance|MPlayer|Viewnior|inkscape"] floating enable
 assign [class="vlc"]  $workspace8
 for_window [class="vlc"] focus
 assign [class="Inkscape"] $workspace4
 for_window [class="Inkscape"] focus
 
-# i3 startup
-exec --no-startup-id /opt/dropbox/dropboxd
-exec --no-startup-id setxkbmap -layout us -variant alt-intl
 
+# i3 startup
+exec_always xrandr --output HDMI-0 --auto --right-of DP-2 --auto
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
+exec --no-startup-id setxkbmap -layout us -variant alt-intl
+exec nitrogen --set-scaled $HOME/dotfiles/picture/black_background.png

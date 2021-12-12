@@ -1,0 +1,41 @@
+#! /bin/sh
+
+# References 
+# https://github.com/skbolton/titan/blob/2b0c0e30442fb533526931402f56efa14da7e4c6/bspwm/bspwmrc#L121
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+monitor_count=$(xrandr --query | grep "\bconnected" --count)
+
+case $monitor_count in
+    1)
+       bspc monitor -d I II III IV V VI VII VIII IX X   
+    ;;
+    2)
+       xrandr --output  DP-1 --auto --right-of DP-2 --auto
+       bspc monitor DP-2 -d I II III IV V VI
+       bspc monitor DP-1 -d VII VIII IX X   
+       echo " Two Monitors founded"  
+
+
+esac
+
+picom --experimental-backends &
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+${HOME}/.config/polybar/launch.sh --forest
+
+bspc desktop '1' -f
+hsetroot -solid "#1e1c31"
