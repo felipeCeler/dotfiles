@@ -145,9 +145,10 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
     set vagrant_unknown_glyph  \uF421 # strange cases
 
     set git_dirty_glyph      \uf044 '' # nf-oct-pencil
-    set git_staged_glyph     \uf0c7 '' # nf-fa-save
+    set git_staged_glyph     \ue706 '' # nf-mdi-format_align_justify
     set git_stashed_glyph    \uF0C6 '' # nf-fa-paperclip
-    set git_untracked_glyph  \uf111 '' # nf-fa-circle
+    set git_untracked_glyph  \uf111 '' # nf-fa-circle 
+    set git_tracked_glyph  \ufadf '' # nf-fa-circle
     #set git_untracked_glyph  \uF141 '' # nf-fa-ellipsis_h
     
     set -x git_ahead_glyph      \uf176 # '↑'
@@ -166,26 +167,4 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 
 end
 
-# TODO create my own theme
-function __bobthefish_pretty_parent -S -a child_dir -d 'Print a parent directory, shortened to fit the prompt'
-    set -q fish_prompt_pwd_dir_length
-    or set -l fish_prompt_pwd_dir_length 1
-
-    # Replace $HOME with ~
-    set -l real_home ~
-    set -l parent_dir (string replace -r '^'(__bobthefish_escape_regex "$real_home")'($|/)' '~$1' (__bobthefish_dirname $child_dir))
-
-    # Must check whether `$parent_dir = /` if using native dirname
-    if [ -z "$parent_dir" ]
-        echo -n /
-        return
-    end
-
-    if [ $fish_prompt_pwd_dir_length -eq 0 ]
-        echo -n \uf07c "$parent_dir/"
-        return
-    end
-
-    string replace -ar '(\.?[^/]{'"$fish_prompt_pwd_dir_length"'})[^/]*/' '$1/' "$parent_dir/"
-end
 
