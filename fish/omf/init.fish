@@ -9,6 +9,12 @@ set -Ux LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
 
 
 ### PROMPT DECORATION ###
+# git 
+set -g theme_display_git_default_branch yes
+set -g theme_display_git_untracked yes
+set -g theme_display_git_ahead_verbose yes
+set -g theme_display_git_dirty_verbose yes
+# dir
 set -g theme_display_user yes
 set -g theme_title_use_abbreviated_path no
 set -g fish_prompt_pwd_dir_length 0
