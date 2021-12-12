@@ -10,22 +10,37 @@ set -Ux LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
 
 ### PROMPT DECORATION ###
 # git 
-set -g theme_display_git_default_branch yes
-set -g theme_display_git_untracked yes
-set -g theme_display_git_ahead_verbose yes
-set -g theme_display_git_dirty_verbose yes
-# dir
+#set -g theme_display_git_untracked yes
+#set -g theme_display_git_ahead_verbose yes
+#set -g theme_display_git_dirty_verbose yes
+
+# DIR
 set -g theme_display_user yes
 set -g theme_title_use_abbreviated_path no
 set -g fish_prompt_pwd_dir_length 0
+# GIT
+set -g theme_display_git yes
+set -g theme_display_git_dirty yes
+set -g theme_display_git_untracked yes
+set -g theme_display_git_ahead_verbose yes
+set -g theme_display_git_dirty_verbose yes
+set -g theme_display_git_stashed_verbose yes
+set -g theme_display_git_default_branch yes
+#set -g theme_git_default_branches master main
+#set -g theme_git_worktree_support yes
+#set -g theme_use_abbreviated_branch_name yes
 
 ### EXPORT ###
 set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
 
 # From bobthefish theme
-set -g theme_powerline_fonts no
-set -g theme_nerd_fonts yes
+# powerlines icons
+set -g theme_powerline_fonts yes
+set -g theme_nerd_fonts no
+# nerd icons
+#set -g theme_powerline_fonts yes
+#set -g theme_nerd_fonts no
 
 ### ABBRIVIATIONS ###
 # portage
@@ -81,10 +96,10 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
   set -x color_path_nowrite             magenta black
   set -x color_path_nowrite_basename    magenta black --bold
 
-  set -x color_repo                     green black
-  set -x color_repo_work_tree           black black --bold
-  set -x color_repo_dirty               brred black
-  set -x color_repo_staged              yellow black
+  #set -x color_repo                     green black
+  #set -x color_repo_work_tree           black black --bold
+ # set -x color_repo_dirty               brred black
+#  set -x color_repo_staged              yellow black
 
   set -x color_vi_mode_default          brblue black --bold
   set -x color_vi_mode_insert           brgreen black --bold
