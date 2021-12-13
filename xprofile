@@ -11,6 +11,6 @@ export PATH="/media/frontier/applications/linux/binary/bin:$PATH"
 export VALAC=/usr/bin/valac-0.46
 
 # i3 app Scale for 4k display  https://www.reddit.com/r/i3wm/comments/afk96e/i3wm_on_a_hdpi_screen/
-#export GDK_SCALE=2
-#export ELM_SCALE=2
-#export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export GDK_SCALE=2
+export ELM_SCALE=2
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
