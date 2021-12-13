@@ -75,6 +75,10 @@ elif [[ "$1" == "--panels" ]]; then
 	style="panels"
 	launch_bar
 
+elif [[ "$1" == "--forest_custom" ]]; then
+	style="forest_custom"
+	launch_bar
+
 else
 	cat <<- EOF
 	Usage : launch.sh --theme
