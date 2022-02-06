@@ -22,8 +22,8 @@ launch_bar() {
 	elif [[ "$style" == "pwidgets" ]]; then
 		bash "$dir"/pwidgets/launch.sh --main
 	else
-		MONITOR=HDMI-0 polybar -q main -c "$dir/$style/config_i3.ini" &
-		MONITOR=DP-2 polybar -q secondary -c "$dir/$style/config_i3.ini" &		
+		MONITOR=HDMI-0 polybar -q primary -c "$dir/$style/config.ini" &
+		MONITOR=DP-2 polybar -q secondary -c "$dir/$style/config.ini" &		
 	fi
 }
 
@@ -73,6 +73,10 @@ elif [[ "$1" == "--pwidgets" ]]; then
 
 elif [[ "$1" == "--panels" ]]; then
 	style="panels"
+	launch_bar
+
+elif [[ "$1" == "--forest_custom" ]]; then
+	style="forest_custom"
 	launch_bar
 
 else
