@@ -1,12 +1,23 @@
 {
-    "C_Cpp.updateChannel": "Insiders",
-    "cmake.configureOnOpen": true,
-    "python.jediEnabled": false,
-    "update.mode": "none",
-    "python.languageServer": "Microsoft",
-    "cSpell.userWords": [
-        "celer"
-    ],
+	// Terminal
+	
+	"terminal.integrated.fontFamily": "SauceCodePro NF",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["powershell -NoLogo"]
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableBold": true,    
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.rightClickCopyPaste": true,
+	
+    // Workbencg Interface Setup
+
     "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
 
@@ -16,15 +27,12 @@
             "sideBar.background": "#111111"
         }
     },
+
     "git.autorefresh": false,
-    "window.zoomLevel": -3,
+    // @see https://github.com/microsoft/vscode/issues/25967
+    "window.zoomLevel": -1,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.enableBold": true,
-    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.rightClickCopyPaste": true,
 }

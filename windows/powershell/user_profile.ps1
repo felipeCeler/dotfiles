@@ -13,6 +13,11 @@ if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang") {
 
 Write-Host "Setting up environment variables..."
 
+# VCPKG variables
+# Write-Host "Setting up CMAKE VCPKG environment variables..."
+
+#$env:CMAKE_TOOLCHAIN_FILE="[vcpkg root]/scripts/buildsystems/vcpkg.cmake"
+
 # Visual Studio path <https://github.com/microsoft/vswhere/wiki/Find-VC>
 $vsPath = &"${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationpath
 
@@ -55,3 +60,7 @@ clear
 # VSDevShell.ps1 - https://gist.github.com/ArthurHNL/b29f008cbc7a159a6ae82a7152b1cb2a
 # How to set up PowerShell prompt with Oh My Posh on Windows 11
 # 	Japan Dev Guys - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
+
+
+# How to use powershell
+# $env:VCPKG_ROOT
