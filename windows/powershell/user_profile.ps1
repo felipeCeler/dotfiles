@@ -46,8 +46,11 @@ Write-Host "Selecting $_Compiler as C/C++ compiler."
 
 # Prompt 
 Import-Module Terminal-Icons
+
+# August,3, 2022 New way to install oh-my-posh - https://ohmyposh.dev/docs/migrating
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
 Import-Module posh-git
-Import-Module oh-my-posh
+#Import-Module oh-my-posh
 Set-PoshPrompt Paradox
 
 # Alias
@@ -64,3 +67,6 @@ clear
 
 # How to use powershell
 # $env:VCPKG_ROOT
+
+# I dont not use PowerShell .. navy blue
+# I had to manually create the file on $PROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
