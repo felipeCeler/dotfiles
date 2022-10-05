@@ -64,7 +64,6 @@ clear
 # How to set up PowerShell prompt with Oh My Posh on Windows 11
 # 	Japan Dev Guys - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
 
-# 0 - Install PowerShell navy blue
 # 1 - Install Hack font and setup on PowerShell - https://youtu.be/5-aK2_WwrmM?t=171
 # 2 - Default Terminal - https://youtu.be/5-aK2_WwrmM?t=268
 # 3 - Install Scoop - iwr -useb get.scoop.sh | iex - https://youtu.be/5-aK2_WwrmM?t=374
@@ -72,9 +71,7 @@ clear
 # 5 - Install neovim gcc - scoop install neovim gcc - https://youtu.be/5-aK2_WwrmM?t=506
 # 6 - Setup User profile - https://youtu.be/5-aK2_WwrmM?t=607
 #      - How to create PowerShell profile https://www.improvescripting.com/how-to-create-powershell-profile-step-by-step-with-examples/
-# 7 - Install-Module posh-git - Scope CuurentUser -Force 
-# 8 - Install-Module oh-my-posh - Scope CuurentUser -Force
-# 9 - Install-Module posh-git - Scope CuurentUser -Force
+	 - Do not forget: " . env$", there is a space dot on the beginning of the script
 
 # How to use powershell
 # $env:VCPKG_ROOT
