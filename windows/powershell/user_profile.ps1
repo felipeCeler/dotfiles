@@ -72,9 +72,8 @@ clear
 # 5 - Install neovim gcc - scoop install neovim gcc - https://youtu.be/5-aK2_WwrmM?t=506
 # 6 - Setup User profile - https://youtu.be/5-aK2_WwrmM?t=607
 #      - How to create PowerShell profile https://www.improvescripting.com/how-to-create-powershell-profile-step-by-step-with-examples/
-# 7 - Install-Module posh-git - Scope CuurentUser -Force 
-# 8 - Install-Module oh-my-posh - Scope CuurentUser -Force
-# 9 - Install-Module posh-git - Scope CuurentUser -Force
+# 7 - Install-Module posh-git -Scope CurrentUser -Force 
+# 8 - Install-Module oh-my-posh -Scope CurrentUser -Force
 
 # How to use powershell
 # $env:VCPKG_ROOT

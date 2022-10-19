@@ -48,9 +48,9 @@ Write-Host "Selecting $_Compiler as C/C++ compiler."
 Import-Module Terminal-Icons
 
 # August,3, 2022 New way to install oh-my-posh - https://ohmyposh.dev/docs/migrating
+# Octobe, 19, 2022 - new way to install https://ohmyposh.dev/docs/installation/windows
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
 Import-Module posh-git
-#Import-Module oh-my-posh
 Set-PoshPrompt Paradox
 
 # Alias
@@ -69,9 +69,12 @@ clear
 # 3 - Install Scoop - iwr -useb get.scoop.sh | iex - https://youtu.be/5-aK2_WwrmM?t=374
 # 4 - Install Git - winget install -e --id Git.Git
 # 5 - Install neovim gcc - scoop install neovim gcc - https://youtu.be/5-aK2_WwrmM?t=506
+# 6 - Install Terminal icons - Install-Module -Name Terminal-Icons -Repository PSGallery -Force https://youtu.be/5-aK2_WwrmM?t=1832            
 # 6 - Setup User profile - https://youtu.be/5-aK2_WwrmM?t=607
 #      - How to create PowerShell profile https://www.improvescripting.com/how-to-create-powershell-profile-step-by-step-with-examples/
-	 - Do not forget: " . env$", there is a space dot on the beginning of the script
+#      - Do not forget: " . env$", there is a space dot on the beginning of the script
+#      -  Test-Path $PROFILE
+#      -  New-Item -Type File -Force $PROFILE
 
 # How to use powershell
 # $env:VCPKG_ROOT
