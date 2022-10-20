@@ -49,9 +49,12 @@ Import-Module Terminal-Icons
 
 # August,3, 2022 New way to install oh-my-posh - https://ohmyposh.dev/docs/migrating
 # Octobe, 19, 2022 - new way to install https://ohmyposh.dev/docs/installation/windows
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
+#oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
 Import-Module posh-git
-Set-PoshPrompt Paradox
+# Load prompt config
+function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
+$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'felipe.omp.json'
+oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
 # Alias
 Set-Alias vim nvim
