@@ -6,6 +6,8 @@ winget install -e --id Kitware.CMake
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Docker.DockerDesktop
 winget install -e --id SoftwareFreedomConservancy.QEMU
+winget install -e --id Meld.Meld
+winget install -e --id SourceGear.DiffMerge
 
 # Produtivity
 winget install JanDeDobbeleer.OhMyPosh -s winget
