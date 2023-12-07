@@ -1,13 +1,15 @@
 # Developement
 # usage:
-# $ pwsh-dev-x64.ps1 [MSVC|Clang]
+# $ pwsh-dev-x64.ps1 [MSVC|Clang|GCC|None]
+
+# Where did I learng how to config it - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
 
 param(
     [String] $Compiler = "MSVC"
 )
 
-if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang") {
-    Write-Error "Unknown compiler '$Compiler'; must be MSVC or Clang"
+if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -and $Compiler -ne "None") {
+    Write-Error "Unknown compiler '$Compiler'; must be MSVC, Clang or GNU Compiler"
     Exit -1
 }
 
@@ -30,19 +32,30 @@ Enter-VsDevShell -VsInstallPath $vsPath -SkipAutomaticLocation -DevCmdArguments 
 
 # NOTE: `-DevCmdArguments` are arguments to `vsdevcmd.bat`
 
-# Select compiler
-if ($Compiler -eq "MSVC") {
+# Select compiler, aka , the eviroment variable CC and CXX 
+if ($Compiler -eq "gcc") {
+    $_Compiler = "GNU C Compiler"
+    Set-Item -Path "env:CC" -Value "gcc.exe"
+    Set-Item -Path "env:CXX" -Value "g++.exe"
+	Write-Host "Selecting $_Compiler as C/C++ compiler."
+}
+elseif ($Compiler -eq "MSVC") {
     $_Compiler = "MSVC"
     Set-Item -Path "env:CC" -Value "cl.exe"
     Set-Item -Path "env:CXX" -Value "cl.exe"
+	
+	Write-Host "Selecting $_Compiler as C/C++ compiler."
 }
 elseif ($Compiler -eq "Clang") {
     $_Compiler = "Clang"
     Set-Item -Path "env:CC" -Value "clang-cl.exe"
     Set-Item -Path "env:CXX" -Value "clang-cl.exe"
+	
+	Write-Host "Selecting $_Compiler as C/C++ compiler."
+}else
+{
+	Write-Host "No Compiler Selected ."
 }
-
-Write-Host "Selecting $_Compiler as C/C++ compiler."
 
 # Prompt 
 Import-Module Terminal-Icons
