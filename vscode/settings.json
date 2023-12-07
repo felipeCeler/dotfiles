@@ -17,7 +17,6 @@
     "terminal.integrated.rightClickCopyPaste": true,
 	
     // Workbencg Interface Setup
-
     "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
 
