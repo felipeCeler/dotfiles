@@ -1,0 +1,5 @@
+#PS C:\Users\felipemc> Test-Path $PROFILE
+#False
+#PS C:\Users\felipemc> New-Item -Type File -Force $PROFILE
+
+$env:USERPROFILE\.dotfiles\windows\powershell\user_profile.ps1
