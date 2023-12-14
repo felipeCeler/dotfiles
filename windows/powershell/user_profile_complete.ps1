@@ -1,14 +1,44 @@
+#Alias
+
+# terminal 
+
+# venv
+Set-Alias active-conan-2.0 C:\Users\felipe\frontier\sdk\venv-python-3.10-conan-2.0\Scripts\Activate.ps1
+
+function emccActivate {C:\Users\felipe\frontier\sdk\emsdk\emsdk activate 3.1.37}
+
+Set-Alias active-emcc emccActivate
+
+# git
+function gn{git init}
+# @args you can pass multi arguments for example
+# ga fileName1 fileName2 
+function add{git add @args}
+function commit { git commit -m @args }
+function pull{git pull origin master}
+function gl{git log}
+function glo{git log --oneline}
+function gch{git checkout @args}
+
+# @args is optional to add argument
+function gb{git branch @args}
+function gs{git status}
+function gd{git diff}
+
+# Alias
+Set-Alias vim nvim
+
+
+
 # Developement
 # usage:
-# $ pwsh-dev-x64.ps1 [MSVC|Clang|GCC|None]
+# $ pwsh-dev-x64.ps1 [MSVC|Clang|GCC|emcc|None]
 
 # Where did I learng how to config it - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
 
-param(
-    [String] $Compiler = "MSVC"
-)
+[String]$Compiler = "gcc"
 
-if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -and $Compiler -ne "None") {
+if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -and $Compiler -ne "emcc" -and $Compiler -ne "None") {
     Write-Error "Unknown compiler '$Compiler'; must be MSVC, Clang or GNU Compiler"
     Exit -1
 }
@@ -33,7 +63,16 @@ Enter-VsDevShell -VsInstallPath $vsPath -SkipAutomaticLocation -DevCmdArguments 
 # NOTE: `-DevCmdArguments` are arguments to `vsdevcmd.bat`
 
 # Select compiler, aka , the eviroment variable CC and CXX 
-if ($Compiler -eq "gcc") {
+# Select compiler, aka , the eviroment variable CC and CXX 
+if ($Compiler -eq "emcc") {
+    # Activate it first
+    # Ex: C:\Users\felipe\frontier\sdk\emsdk\emsdk activate 3.1.37
+    $_Compiler = "Emscripten gcc/clang-like replacement + linker emulating GNU ld"
+    Set-Item -Path "env:CC" -Value "emcc"
+    Set-Item -Path "env:CXX" -Value "em++"
+	Write-Host "Selecting $_Compiler as C/C++ compiler."
+}
+elseif ($Compiler -eq "gcc") {
     $_Compiler = "GNU C Compiler"
     Set-Item -Path "env:CC" -Value "gcc.exe"
     Set-Item -Path "env:CXX" -Value "g++.exe"
@@ -65,14 +104,13 @@ Import-Module Terminal-Icons
 #oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
 Import-Module posh-git
 # Load prompt config
+# @se https://youtu.be/5-aK2_WwrmM?si=6pWFGpsF7x3V1DtV&t=1680
 function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
 $PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'felipe.omp.json'
 oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
-# Alias
-Set-Alias vim nvim
 
-clear
+
 
 # References
 
