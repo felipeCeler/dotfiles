@@ -2,4 +2,6 @@
 #False
 #PS C:\Users\felipemc> New-Item -Type File -Force $PROFILE
 
+vim $PROFILE.CurrentUserCurrentHost
+
 $env:USERPROFILE\.dotfiles\windows\powershell\user_profile.ps1
