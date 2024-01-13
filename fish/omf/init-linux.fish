@@ -52,7 +52,7 @@ abbr gga 'git add'
 abbr ggl 'git log --pretty=format:"\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\"" --graph --date=relative --decorate --all'
 
 ### ALIASES ###
-
+# https://github.com/andreafrancia/trash-cli
 alias rm='echo "This is not the command you are looking for."; false'
 
 # @see https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/fish/config.fish
@@ -73,6 +73,8 @@ if type -q exa
  alias lla "ll -a"
 end
 
+# remove duplicate python venv feedback
+set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # My personal Fish Colors
 function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
