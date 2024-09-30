@@ -1,3 +1,19 @@
+# Path
+
+Function Add-PathVariable {
+    param (
+        [string]$addPath
+    )
+    if (Test-Path $addPath){
+        $regexAddPath = [regex]::Escape($addPath)
+        $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch 
+"^$regexAddPath\\?"}
+        $env:Path = ($arrPath + $addPath) -join ';'
+    } else {
+        Throw "'$addPath' is not a valid path."
+    }
+}
+
 #Alias
 
 # terminal 
@@ -36,7 +52,7 @@ Set-Alias vim nvim
 
 # Where did I learng how to config it - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
 
-[String]$Compiler = "gcc"
+[String]$Compiler = "MSVC"
 
 if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -and $Compiler -ne "emcc" -and $Compiler -ne "None") {
     Write-Error "Unknown compiler '$Compiler'; must be MSVC, Clang or GNU Compiler"
@@ -44,23 +60,6 @@ if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -an
 }
 
 Write-Host "Setting up environment variables..."
-
-# VCPKG variables
-# Write-Host "Setting up CMAKE VCPKG environment variables..."
-
-#$env:CMAKE_TOOLCHAIN_FILE="[vcpkg root]/scripts/buildsystems/vcpkg.cmake"
-
-# Visual Studio path <https://github.com/microsoft/vswhere/wiki/Find-VC>
-$vsPath = &"${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationpath
-
-Write-Host "Microsoft Visual Studio path = '$vsPath'"
-
-# Use module `Microsoft.VisualStudio.DevShell.dll`
-Import-Module (Get-ChildItem $vsPath -Recurse -File -Filter Microsoft.VisualStudio.DevShell.dll).FullName
-
-Enter-VsDevShell -VsInstallPath $vsPath -SkipAutomaticLocation -DevCmdArguments '-arch=x64'
-
-# NOTE: `-DevCmdArguments` are arguments to `vsdevcmd.bat`
 
 # Select compiler, aka , the eviroment variable CC and CXX 
 # Select compiler, aka , the eviroment variable CC and CXX 
@@ -74,12 +73,32 @@ if ($Compiler -eq "emcc") {
 }
 elseif ($Compiler -eq "gcc") {
     $_Compiler = "GNU C Compiler"
+	Add-PathVariable("C:\Qt\Tools\mingw1120_64\bin")
     Set-Item -Path "env:CC" -Value "gcc.exe"
     Set-Item -Path "env:CXX" -Value "g++.exe"
 	Write-Host "Selecting $_Compiler as C/C++ compiler."
 }
 elseif ($Compiler -eq "MSVC") {
     $_Compiler = "MSVC"
+	
+	# VCPKG variables
+	# Write-Host "Setting up CMAKE VCPKG environment variables..."
+
+	#$env:CMAKE_TOOLCHAIN_FILE="[vcpkg root]/scripts/buildsystems/vcpkg.cmake"
+
+	# Visual Studio path <https://github.com/microsoft/vswhere/wiki/Find-VC>
+	$vsPath = &"${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationpath
+
+	Write-Host "Microsoft Visual Studio path = '$vsPath'"
+
+	# Use module `Microsoft.VisualStudio.DevShell.dll`
+	Import-Module (Get-ChildItem $vsPath -Recurse -File -Filter Microsoft.VisualStudio.DevShell.dll).FullName
+
+	Enter-VsDevShell -VsInstallPath $vsPath -SkipAutomaticLocation -DevCmdArguments '-arch=x64'
+
+	# NOTE: `-DevCmdArguments` are arguments to `vsdevcmd.bat`
+	
+	
     Set-Item -Path "env:CC" -Value "cl.exe"
     Set-Item -Path "env:CXX" -Value "cl.exe"
 	
