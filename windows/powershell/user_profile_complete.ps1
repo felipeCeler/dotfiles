@@ -3,7 +3,7 @@
 # terminal 
 
 # venv
-Set-Alias active-conan-2.0 C:\Users\felipe\frontier\sdk\venv-python-3.10-conan-2.0\Scripts\Activate.ps1
+Set-Alias active-conan-2.0 D:\sdk\venv-python-3.11\Scripts\Activate.ps1
 
 function emccActivate {C:\Users\felipe\frontier\sdk\emsdk\emsdk activate 3.1.37}
 
@@ -36,7 +36,7 @@ Set-Alias vim nvim
 
 # Where did I learng how to config it - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
 
-[String]$Compiler = "gcc"
+[String]$Compiler = "MSVC"
 
 if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -and $Compiler -ne "emcc" -and $Compiler -ne "None") {
     Write-Error "Unknown compiler '$Compiler'; must be MSVC, Clang or GNU Compiler"
