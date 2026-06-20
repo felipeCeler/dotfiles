@@ -19,7 +19,7 @@ Function Add-PathVariable {
 # terminal 
 
 # venv
-Set-Alias active-conan-2.0 C:\Users\felipe\frontier\sdk\venv-python-3.10-conan-2.0\Scripts\Activate.ps1
+Set-Alias active-conan-2.0 D:\tools\venv-python3.14-conan-2.0\Scripts\Activate.ps1
 
 function emccActivate {C:\Users\felipe\frontier\sdk\emsdk\emsdk activate 3.1.37}
 
@@ -129,6 +129,8 @@ $PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'felipe.omp.json'
 oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
 
+# Node.js
+fnm env --use-on-cd --shell power-shell | Out-String | Invoke-Expression
 
 
 # References

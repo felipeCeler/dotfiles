@@ -53,7 +53,7 @@ Set-Alias vim nvim
 
 # Where did I learng how to config it - https://www.youtube.com/watch?v=5-aK2_WwrmM&t=23s
 
-[String]$Compiler = "gcc"
+[String]$Compiler = "MSVC"
 
 if ($Compiler -ne "MSVC" -and $Compiler -ne "Clang" -and $Compiler -ne "gcc" -and $Compiler -ne "emcc" -and $Compiler -ne "None") {
     Write-Error "Unknown compiler '$Compiler'; must be MSVC, Clang or GNU Compiler"
