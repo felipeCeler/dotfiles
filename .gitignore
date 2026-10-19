@@ -3,3 +3,11 @@
 vim/bundle
 .uuid
 *.swp
+
+# Ignora todo o conteúdo descompactado dentro da pasta de ícones
+/icons/*/
+
+# Garante que os arquivos compactados NÃO sejam ignorados
+!/icons/*.zip
+!/icons/*.tar.gz
+!/icons/*.tar.xz
