@@ -1,0 +1,23 @@
+# filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+#
+# See the manpage fstab(5) forx# <fs> <mountpoint> <type> <opts> <dump/pass>
+
+# Windows
+# umask=0002 fix windows partition colors
+# @see askubuntu.com/questions/594831/xfce4-terminal-color-settings-for-ls-in-ntfs-partition-mounted-by-fstaba - the question
+# @see http://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-the-terminal - what the colors mean
+# @see http://askubuntu.com/questions/429848/dmask-and-fmask-mount-options - what the mask bit maps mean
+#/dev/sda1 /media/c ntfs-3g umask=0002,uid=1000,gid=100,defaults 0 0
+#/dev/sda2 /media/d ntfs-3g umask=0002,uid=1000,gid=100,defaults 0 0
+
+# Gentoo
+
+
+# <fs>                                     <mountpoint>    <type>   <opts>                                         <dump/pass>
+UUID=51FD-1ECC                             /boot           vfat     umask=0077,noatime          	  	  0 2
+UUID=61bd52a6-74f4-4472-913f-e1bff3a64c76  /               ext4     noatime,errors=remount-ro                     0 1
+UUID=32fb0734-4003-4edd-bd77-de7921d7e957  none            swap     sw                                            0 0
+

@@ -24,6 +24,12 @@ fix colors at __bobthefish_colors
   https://github.com/jorgebucaran/fisher
   curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
+# Installation
+
+ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
+
+
+
 
 # Refefences
 # My Fish shell workflow for coding - by  devaslife https://www.youtube.com/watch?v=KKxhf50FIPI
